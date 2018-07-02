@@ -1,0 +1,9 @@
+C:\Web\孔先美\才通天下\项目源码\NG.CachHelper\bin\Release\NG.CachHelper.dll
+C:\Web\孔先美\才通天下\项目源码\NG.CachHelper\bin\Release\NG.CachHelper.pdb
+C:\Web\孔先美\才通天下\项目源码\NG.CachHelper\bin\Release\log4net.dll
+C:\Web\孔先美\才通天下\项目源码\NG.CachHelper\bin\Release\ServiceStack.dll
+C:\Web\孔先美\才通天下\项目源码\NG.CachHelper\bin\Release\ServiceStack.Interfaces.dll
+C:\Web\孔先美\才通天下\项目源码\NG.CachHelper\bin\Release\ServiceStack.ServiceInterface.dll
+C:\Web\孔先美\才通天下\项目源码\NG.CachHelper\obj\Release\NG.CachHelper.csprojResolveAssemblyReference.cache
+C:\Web\孔先美\才通天下\项目源码\NG.CachHelper\obj\Release\NG.CachHelper.dll
+C:\Web\孔先美\才通天下\项目源码\NG.CachHelper\obj\Release\NG.CachHelper.pdb

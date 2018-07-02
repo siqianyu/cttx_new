@@ -1,0 +1,10 @@
+C:\Web\孔先美\才通天下\项目源码\StarTech.Adapter\bin\Release\StarTech.Adapter.dll
+C:\Web\孔先美\才通天下\项目源码\StarTech.Adapter\bin\Release\StarTech.Adapter.XmlSerializers.dll
+C:\Web\孔先美\才通天下\项目源码\StarTech.Adapter\bin\Release\StarTech.Adapter.pdb
+C:\Web\孔先美\才通天下\项目源码\StarTech.Adapter\bin\Release\StarTech.DBUtility.dll
+C:\Web\孔先美\才通天下\项目源码\StarTech.Adapter\bin\Release\StarTech.Util.dll
+C:\Web\孔先美\才通天下\项目源码\StarTech.Adapter\bin\Release\StarTech.Util.pdb
+C:\Web\孔先美\才通天下\项目源码\StarTech.Adapter\obj\Release\StarTech.Adapter.csprojResolveAssemblyReference.cache
+C:\Web\孔先美\才通天下\项目源码\StarTech.Adapter\obj\Release\StarTech.Adapter.dll
+C:\Web\孔先美\才通天下\项目源码\StarTech.Adapter\obj\Release\StarTech.Adapter.pdb
+C:\Web\孔先美\才通天下\项目源码\StarTech.Adapter\obj\Release\StarTech.Adapter.XmlSerializers.dll

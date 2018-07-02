@@ -1,0 +1,2 @@
+2018-06-27 21:33:48.867 DEBUG ASP.ngweixinroot_yqxkjoauth2center_aspx: 【YqxkjOAuth2Center.aspx】Session[local_redirect_url]=YqxkjHome.aspx
+2018-06-27 21:33:48.871 DEBUG NG.WeiXin.NGWebOAuth2: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx929390dd60452595&redirect_uri=http%3a%2f%2f192.168.5.103%2fNGWeiXinRoot%2fYqxkjOAuth2Center.aspx&response_type=code&scope=snsapi_base&stateSTATE#wechat_redirect

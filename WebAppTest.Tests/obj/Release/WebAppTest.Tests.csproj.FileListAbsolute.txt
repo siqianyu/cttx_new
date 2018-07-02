@@ -1,0 +1,7 @@
+C:\Web\孔先美\才通天下\项目源码\WebAppTest.Tests\bin\Release\WebAppTest.Tests.dll
+C:\Web\孔先美\才通天下\项目源码\WebAppTest.Tests\bin\Release\WebAppTest.Tests.pdb
+C:\Web\孔先美\才通天下\项目源码\WebAppTest.Tests\bin\Release\DTcms.Common.dll
+C:\Web\孔先美\才通天下\项目源码\WebAppTest.Tests\bin\Release\DTcms.Common.pdb
+C:\Web\孔先美\才通天下\项目源码\WebAppTest.Tests\obj\Release\WebAppTest.Tests.dll
+C:\Web\孔先美\才通天下\项目源码\WebAppTest.Tests\obj\Release\WebAppTest.Tests.pdb
+C:\Web\孔先美\才通天下\项目源码\WebAppTest.Tests\obj\Release\WebAppTest.Tests.csprojResolveAssemblyReference.cache

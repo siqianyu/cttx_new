@@ -1,0 +1,4 @@
+2018-06-29 16:39:33.515 DEBUG ASP.cttxweixinroot_cttxoauth2center_aspx: 【CTTXOAuth2Center.aspx】Session[local_redirect_url]=CTTXUserLogin.aspx
+2018-06-29 16:39:33.520 DEBUG NG.WeiXin.NGWebOAuth2: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx929390dd60452595&redirect_uri=http%3a%2f%2f192.168.0.147%2fCTTXWeiXinRoot%2fCTTXOAuth2Center.aspx&response_type=code&scope=snsapi_base&stateSTATE#wechat_redirect
+2018-06-29 16:40:09.931 DEBUG ASP.cttxweixinroot_cttxoauth2center_aspx: 【CTTXOAuth2Center.aspx】Session[local_redirect_url]=CTTXUserLogin.aspx
+2018-06-29 16:40:09.932 DEBUG NG.WeiXin.NGWebOAuth2: Will Redirect to URL : https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx929390dd60452595&redirect_uri=http%3a%2f%2f192.168.0.147%2fCTTXWeiXinRoot%2fCTTXOAuth2Center.aspx&response_type=code&scope=snsapi_base&stateSTATE#wechat_redirect

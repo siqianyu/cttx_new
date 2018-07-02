@@ -1,0 +1,8 @@
+C:\Web\孔先美\才通天下\项目源码\Startech.Member\bin\Release\Startech.Member.dll
+C:\Web\孔先美\才通天下\项目源码\Startech.Member\bin\Release\Startech.Member.pdb
+C:\Web\孔先美\才通天下\项目源码\Startech.Member\bin\Release\StarTech.DBUtility.dll
+C:\Web\孔先美\才通天下\项目源码\Startech.Member\bin\Release\StarTech.Util.dll
+C:\Web\孔先美\才通天下\项目源码\Startech.Member\bin\Release\StarTech.Util.pdb
+C:\Web\孔先美\才通天下\项目源码\Startech.Member\obj\Release\Startech.Member.csprojResolveAssemblyReference.cache
+C:\Web\孔先美\才通天下\项目源码\Startech.Member\obj\Release\Startech.Member.dll
+C:\Web\孔先美\才通天下\项目源码\Startech.Member\obj\Release\Startech.Member.pdb

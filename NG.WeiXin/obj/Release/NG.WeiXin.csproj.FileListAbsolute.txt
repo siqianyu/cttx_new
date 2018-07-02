@@ -1,0 +1,7 @@
+C:\Web\孔先美\才通天下\项目源码\NG.WeiXin\bin\Release\NG.WeiXin.dll
+C:\Web\孔先美\才通天下\项目源码\NG.WeiXin\bin\Release\NG.WeiXin.pdb
+C:\Web\孔先美\才通天下\项目源码\NG.WeiXin\bin\Release\LitJson.dll
+C:\Web\孔先美\才通天下\项目源码\NG.WeiXin\bin\Release\Newtonsoft.Json.dll
+C:\Web\孔先美\才通天下\项目源码\NG.WeiXin\obj\Release\NG.WeiXin.csprojResolveAssemblyReference.cache
+C:\Web\孔先美\才通天下\项目源码\NG.WeiXin\obj\Release\NG.WeiXin.dll
+C:\Web\孔先美\才通天下\项目源码\NG.WeiXin\obj\Release\NG.WeiXin.pdb

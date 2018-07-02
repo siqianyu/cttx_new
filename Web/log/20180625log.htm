@@ -1,0 +1,150 @@
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+==========================<br>#2018-06-25 17:13:28<br>==========================<br>#错误发生位置： http://localhost:8091/AppModules/Sysadmin/News/AddNews.aspx?typeId=null&r=0.6102975653752447<br>#错误消息： could not connect to redis Instance at 127.0.0.1:6379<br>#Stack Trace：<br>System.InvalidOperationException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisClient.Get[T](String key)
+   在 NG.CachHelper.Redis.RedisHelper.GetStringCash(String key) 位置 c:\Web\孔先美\才通天下\项目源码\NG.CachHelper\Redis\RedisHelper.cs:行号 71
+   在 AppModules_Sysadmin_News_AddNews.InitFooter() 位置 c:\Web\孔先美\才通天下\项目源码\Web\AppModules\Sysadmin\News\AddNews.aspx.cs:行号 55
+   在 AppModules_Sysadmin_News_AddNews.Page_Load(Object sender, EventArgs e) 位置 c:\Web\孔先美\才通天下\项目源码\Web\AppModules\Sysadmin\News\AddNews.aspx.cs:行号 35
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br><br><br>
+==========================<br>#2018-06-25 17:26:41<br>==========================<br>#错误发生位置： http://localhost:8091/AppModules/Flag/AddFlags.aspx?r=0.8264504653979186<br>#错误消息： could not connect to redis Instance at 127.0.0.1:6379<br>#Stack Trace：<br>System.InvalidOperationException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisClient.Get[T](String key)
+   在 NG.CachHelper.Redis.RedisHelper.GetStringCash(String key) 位置 c:\Web\孔先美\才通天下\项目源码\NG.CachHelper\Redis\RedisHelper.cs:行号 71
+   在 AppModules_Flag_AddFlags.InitFooter() 位置 c:\Web\孔先美\才通天下\项目源码\Web\AppModules\Flag\AddFlags.aspx.cs:行号 55
+   在 AppModules_Flag_AddFlags.Page_Load(Object sender, EventArgs e) 位置 c:\Web\孔先美\才通天下\项目源码\Web\AppModules\Flag\AddFlags.aspx.cs:行号 35
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br><br><br>
+==========================<br>#2018-06-25 17:26:53<br>==========================<br>#错误发生位置： http://localhost:8091/AppModules/Flag/AddFlags.aspx?r=0.7859789913295023<br>#错误消息： could not connect to redis Instance at 127.0.0.1:6379<br>#Stack Trace：<br>System.InvalidOperationException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisClient.Get[T](String key)
+   在 NG.CachHelper.Redis.RedisHelper.GetStringCash(String key) 位置 c:\Web\孔先美\才通天下\项目源码\NG.CachHelper\Redis\RedisHelper.cs:行号 71
+   在 AppModules_Flag_AddFlags.InitFooter() 位置 c:\Web\孔先美\才通天下\项目源码\Web\AppModules\Flag\AddFlags.aspx.cs:行号 55
+   在 AppModules_Flag_AddFlags.Page_Load(Object sender, EventArgs e) 位置 c:\Web\孔先美\才通天下\项目源码\Web\AppModules\Flag\AddFlags.aspx.cs:行号 35
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br><br><br>
+==========================<br>#2018-06-25 17:48:35<br>==========================<br>#错误发生位置： http://localhost:8091/AppModules/Flag/AddFlags.aspx?r=0.9905368226214502<br>#错误消息： could not connect to redis Instance at 127.0.0.1:6379<br>#Stack Trace：<br>System.InvalidOperationException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisClient.Get[T](String key)
+   在 NG.CachHelper.Redis.RedisHelper.GetStringCash(String key) 位置 c:\Web\孔先美\才通天下\项目源码\NG.CachHelper\Redis\RedisHelper.cs:行号 71
+   在 AppModules_Flag_AddFlags.InitFooter() 位置 c:\Web\孔先美\才通天下\项目源码\Web\AppModules\Flag\AddFlags.aspx.cs:行号 55
+   在 AppModules_Flag_AddFlags.Page_Load(Object sender, EventArgs e) 位置 c:\Web\孔先美\才通天下\项目源码\Web\AppModules\Flag\AddFlags.aspx.cs:行号 35
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br><br><br>
+==========================<br>#2018-06-25 17:51:49<br>==========================<br>#错误发生位置： http://localhost:8091/AppModules/Flag/AddFlags.aspx?r=0.714329147824315<br>#错误消息： could not connect to redis Instance at 127.0.0.1:6379<br>#Stack Trace：<br>System.InvalidOperationException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisClient.Get[T](String key)
+   在 NG.CachHelper.Redis.RedisHelper.GetStringCash(String key) 位置 c:\Web\孔先美\才通天下\项目源码\NG.CachHelper\Redis\RedisHelper.cs:行号 71
+   在 AppModules_Flag_AddFlags.InitFooter() 位置 c:\Web\孔先美\才通天下\项目源码\Web\AppModules\Flag\AddFlags.aspx.cs:行号 55
+   在 AppModules_Flag_AddFlags.Page_Load(Object sender, EventArgs e) 位置 c:\Web\孔先美\才通天下\项目源码\Web\AppModules\Flag\AddFlags.aspx.cs:行号 35
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br><br><br>
+==========================<br>#2018-06-25 17:52:44<br>==========================<br>#错误发生位置： http://localhost:8091/AppModules/Sysadmin/News/AddNews.aspx?typeId=null&r=0.5215722779146499<br>#错误消息： could not connect to redis Instance at 127.0.0.1:6379<br>#Stack Trace：<br>System.InvalidOperationException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisClient.Get[T](String key)
+   在 NG.CachHelper.Redis.RedisHelper.GetStringCash(String key) 位置 c:\Web\孔先美\才通天下\项目源码\NG.CachHelper\Redis\RedisHelper.cs:行号 71
+   在 AppModules_Sysadmin_News_AddNews.InitFooter() 位置 c:\Web\孔先美\才通天下\项目源码\Web\AppModules\Sysadmin\News\AddNews.aspx.cs:行号 55
+   在 AppModules_Sysadmin_News_AddNews.Page_Load(Object sender, EventArgs e) 位置 c:\Web\孔先美\才通天下\项目源码\Web\AppModules\Sysadmin\News\AddNews.aspx.cs:行号 35
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br><br><br>
+==========================<br>#2018-06-25 17:57:38<br>==========================<br>#错误发生位置： http://localhost:8091/AppModules/Sysadmin/News/AddNews.aspx?typeId=null&r=0.12569350653414357<br>#错误消息： could not connect to redis Instance at 127.0.0.1:6379<br>#Stack Trace：<br>System.InvalidOperationException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisClient.Get[T](String key)
+   在 NG.CachHelper.Redis.RedisHelper.GetStringCash(String key) 位置 c:\Web\孔先美\才通天下\项目源码\NG.CachHelper\Redis\RedisHelper.cs:行号 71
+   在 AppModules_Sysadmin_News_AddNews.InitFooter() 位置 c:\Web\孔先美\才通天下\项目源码\Web\AppModules\Sysadmin\News\AddNews.aspx.cs:行号 55
+   在 AppModules_Sysadmin_News_AddNews.Page_Load(Object sender, EventArgs e) 位置 c:\Web\孔先美\才通天下\项目源码\Web\AppModules\Sysadmin\News\AddNews.aspx.cs:行号 35
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br><br><br>
+==========================<br>#2018-06-25 19:27:06<br>==========================<br>#错误发生位置： http://localhost:8091/AppModules/Sysadmin/News/AddNews.aspx?id=100216<br>#错误消息： could not connect to redis Instance at 127.0.0.1:6379<br>#Stack Trace：<br>System.InvalidOperationException: could not connect to redis Instance at 127.0.0.1:6379 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:6379
+   在 System.Net.Sockets.Socket.Connect(IPAddress[] addresses, Int32 port)
+   在 System.Net.Sockets.Socket.Connect(String host, Int32 port)
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 ServiceStack.Redis.RedisNativeClient.Connect()
+   在 ServiceStack.Redis.RedisNativeClient.AssertConnectedSocket()
+   在 ServiceStack.Redis.RedisNativeClient.SendCommand(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisNativeClient.SendExpectData(Byte[][] cmdWithBinaryArgs)
+   在 ServiceStack.Redis.RedisClient.Get[T](String key)
+   在 NG.CachHelper.Redis.RedisHelper.GetStringCash(String key) 位置 c:\Web\孔先美\才通天下\项目源码\NG.CachHelper\Redis\RedisHelper.cs:行号 71
+   在 AppModules_Sysadmin_News_AddNews.InitFooter() 位置 c:\Web\孔先美\才通天下\项目源码\Web\AppModules\Sysadmin\News\AddNews.aspx.cs:行号 55
+   在 AppModules_Sysadmin_News_AddNews.Page_Load(Object sender, EventArgs e) 位置 c:\Web\孔先美\才通天下\项目源码\Web\AppModules\Sysadmin\News\AddNews.aspx.cs:行号 35
+   在 System.Web.UI.Control.OnLoad(EventArgs e)
+   在 System.Web.UI.Control.LoadRecursive()
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)<br><br><br>
+==========================<br>#2018-06-25 19:36:27<br>==========================<br>#错误发生位置： http://localhost:8091/AppModules/Flag/AddFlags.aspx?id=1001<br>#错误消息： 'where' 附近有语法错误。<br>#Stack Trace：<br>System.Data.SqlClient.SqlException (0x80131904): 'where' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 StarTech.DBUtility.AdoHelper.ExecuteNonQuery(IDbCommand command)
+   在 StarTech.DBUtility.AdoHelper.ExecuteNonQuery(IDbConnection connection, CommandType commandType, String commandText, IDataParameter[] commandParameters)
+   在 StarTech.DBUtility.AdoHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, IDataParameter[] commandParameters)
+   在 StarTech.DBUtility.AdoHelper.ExecuteSqlNonQuery(String SQL, IDataParameter[] commandParameters)
+   在 StarTech.ELife.Flag.FlagDal.Update(FlagModel model) 位置 c:\Web\孔先美\才通天下\项目源码\StarTech.ELife\Flag\FlagDal.cs:行号 81
+   在 StarTech.ELife.Flag.FlagBll.Update(FlagModel model) 位置 c:\Web\孔先美\才通天下\项目源码\StarTech.ELife\Flag\FlagBll.cs:行号 46
+   在 AppModules_Flag_AddFlags.btnSave_Click(Object sender, EventArgs e) 位置 c:\Web\孔先美\才通天下\项目源码\Web\AppModules\Flag\AddFlags.aspx.cs:行号 89
+   在 System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+ClientConnectionId:893a0757-85d6-4a43-a26f-a92514e9ed06
+Error Number:102,State:1,Class:15<br><br><br>
